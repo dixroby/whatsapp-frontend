@@ -13,3 +13,41 @@
     flex: 1;
     padding-left: 20px;
 }
+.chat_headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat_headerInfo > p{
+    color: gray;
+}
+.chat__body{
+    flex: 1;
+    background-image: url("https://i.pinimg.com/originals/2b/45/cf/2b45cfec4c0d3c56aed4ccd30b61bd3a.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll; /* el scroll se activa una vez se requiera */
+}
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.chat__reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 900;
+    font-size: xx-small; 
+}
